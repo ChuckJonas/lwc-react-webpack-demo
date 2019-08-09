@@ -1,8 +1,10 @@
 # LWC React-Webpack Container
 
-Proof of concept demonstracting how you can use webpack to bundle a react application and mount it in a LWC. 
+<img width="901" alt="LWC_React_Hello_World___Salesforce" src="https://user-images.githubusercontent.com/5217568/62799975-6c3cc880-ba9f-11e9-9525-1975e6ac0d50.png">
 
-At this time, I do not recommend doing this for anything other than a static page.
+Proof of concept demonstracting how you can use webpack to bundle a react application and mount it in a LWC.
+
+At this time, I do not recommend doing this for anything other than a static page.  If you want to develop react SPA applications on salesforce, I recommend using Visualforce (check out [B.A.S.S.](https://github.com/ChuckJonas/bad-ass-salesforce-stack) for ready to go boiler plate)
 
 ## Setup
 
