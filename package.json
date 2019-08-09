@@ -20,6 +20,8 @@
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
+    "@salesforce-ux/design-system": "^2.9.4",
+    "@salesforce/design-system-react": "^0.10.9",
     "react": "16.8.3",
     "react-dom": "^16.8.6"
   }
