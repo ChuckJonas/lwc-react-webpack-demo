@@ -1,8 +1,8 @@
 # LWC React-Webpack Container
 
-This project is meant to demonstrate how you can use webpack to bundle a react application and mount it in a LWC. 
+Proof of concept demonstracting how you can use webpack to bundle a react application and mount it in a LWC. 
 
-While this approach works, I cannot reasonable recommend taking this approach at this time.  
+At this time, I do not recommend doing this for anything other than a static page.
 
 ## Setup
 
@@ -10,9 +10,10 @@ While this approach works, I cannot reasonable recommend taking this approach at
 - npm install
 - create a scratch org.  Set as default
 - `npm run deploy`
+- `sfdx force:user:permset:assign -n lwc_react`
 
 ## Demo
-- `sfdx force:user:permset:assign -n lwc_react`
+
 - `sfdx force:org:open`
 - Add 1 or more contacts
 - Open App Launcher 
