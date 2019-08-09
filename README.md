@@ -12,7 +12,8 @@ While this approach works, I cannot reasonable recommend taking this approach at
 - `npm run deploy`
 
 ## Demo
-- Open org. 
-- Add 1 or more contacts 
+- `sfdx force:user:permset:assign -n lwc_react`
+- `sfdx force:org:open`
+- Add 1 or more contacts
 - Open App Launcher 
-- Select LWC React Hello World
+- Select "LWC React Hello World"
